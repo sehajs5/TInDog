@@ -1,0 +1,193 @@
+body{
+    text-align: center;
+}
+
+h1{
+font-family: "Montserrat";
+font-weight: 900;
+font-size: 3.5rem;
+line-height: 1.5;
+color: white;
+}
+h2{
+    font-family: "Montserrat";
+    text-align: center;
+    color: #fff;
+    line-height: 4.5rem;
+    font-size: 3rem;
+}
+h3{ 
+    margin:20px;
+    font-family: "Montserrat";
+    font-weight: 40px;
+    text-align: center;
+}
+/*Heading*/
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+    margin-bottom: 100px;
+}
+.rotateMobile{
+    transform:rotate(30deg); /* Safari and Chrome */
+    width: 60%;
+    position: relative;
+    }
+#brand-font{
+    font-family: "Ubuntu";
+}
+#marginn{
+    margin-top: 50px;
+
+}  
+.download-button{
+    margin:3% 3% 5% 0%;
+}
+.special{
+font-family: "Ubuntu" ;
+}
+#menu{
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+.heading-text{
+    text-align: left;
+}
+/*Feature*/
+.check-size{
+    font-size: 50px;
+    color:#ef8172;
+    
+}
+.subtitles{
+    font-family: "Montserrat";
+    font-weight: 400;
+    color:#afafaf;
+    margin: 20px 20px 20px 20px; 
+    text-align: center;
+}
+.check-size:hover{
+    color:#ff4c68;
+}
+.feature-box{
+    text-align: center;
+    padding: 2.5%;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Testimonials Page*/
+#testimonials{
+    padding: 7% 15% 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+.image-dog{
+    border-radius: 100%;
+    margin: 20px;
+    width:20%;
+}
+/*Press*/
+#press{
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+    padding: 0% 10% 7% 10%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/*Pricing*/
+.pricing-text{
+color: #000;
+
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.text-padding{
+    padding-top: 43px;
+}
+.pricee{
+    font-family: "Montserrat";
+}
+.box-padding{
+    padding-top: 100px;
+}
+/* Z- index is affecting the stacking order. It only works if the objects have been given 
+the position absolute, relative or fixed
+
+Media Query Breakpoint
+@media is a query that is used to make our website responsive. It is like an if-else statement. It checks
+the condition taht we have specified 
+the syntax is usually like 
+@media <type> <feature>
+eg: @media screen (min-width:900)
+we can also use and or and other keywords*/
+
+
+/* Call to action*/
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-text{
+    font-family: "Montserrat";
+font-weight: 900;
+color: #fff;
+font-size: 3rem;
+text-align: center;
+padding-top: px;
+line-height: 5rem;
+}
+.btn{
+    font-family: "Montserrat";
+}
+
+
+/* Footer*/
+#footer{
+    padding-top: 50px;
+    text-align: center;
+}
+.footer-text{
+    font-family: "Montserrat";
+    color: #afafaf;
+    text-align: center;
+    padding: 20px;
+    
+}
+.footer-icons{
+    padding: 10px;
+}
+@media (max-width:1028px){
+    .rotateMobile{
+transform: rotate(0);
+    }
+    #title{
+text-align: center;
+    }
+}
+
+/*.image.h means you are looking for a tag that has both image and h1 class
+.image .h1 means that you are looking for h1 class which is inside a class image, the h1 becomes child class
+and image becomes parent class, this is used to refactor our code.
+We read right to left in this case
+h1#title means look for a h1 tag that has id=h1*/
+
+
+.row{
+    justify-content: center;
+}
